@@ -20,5 +20,10 @@
 
 [CapitalPYClass] 
 
-	主要內容引用了 vn.py (http://www.vnpy.org/) 的事件引擎，讓Capital傳來的事件進入Queue隊列
-	
+	主要內容引用了 vn.py (http://www.vnpy.org/) 的事件引擎，讓Capital傳來的事件進入
+  	Queue隊列避免阻塞
+	eventEngine.py vnpy 的事件引擎主體，一行未改
+	eventType.py 定義自己的Event名稱，這裡目前只有把群益 Quote Demo 的Event 加進去
+	SKPY.py python 的Api串接主體，在這邊定義Event 的轉發
+	UserInfo.cfg 在這裡改上自己的帳號 & 密碼
+
