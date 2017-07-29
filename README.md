@@ -33,3 +33,13 @@
 	
 	UserInfo.cfg : 在這裡改上自己的帳號 & 密碼
 
+執行方法：
+	
+	lib/Startup.bat 
+	
+目前進度：
+
+	目前完成：收到Initialize之後開始接收 TX00 的 History Ticks，並在event隊列上把收到的Tick
+	列印出來
+	ToDo : 繼續完成 OnReply SendOrder 等細節完善
+	
